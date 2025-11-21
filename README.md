@@ -2,11 +2,12 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
 **UTS Mobile Programming 2**  
 **TIF RP-23 CNS A**  
 **Nama:** Bayu Aji Prayoga  
 **NIM:** 23552011194
-**Jawaban Soal Teori ada di bawah**
+**Jawaban Soal Teori** ada di bawah
 
 ## 📋 Deskripsi Proyek
 
@@ -293,32 +294,8 @@ class CounterDecremented extends CounterEvent {}
 
 #### **Separation of Concerns Benefits:**
 
-**A. Model Data (Data Layer)**
-
-- **Purpose**: Mengelola struktur data dan serialization
-- **Benefits**:
-  - Data consistency across app
-  - Easy to modify data structure
-  - Reusable across different features
-- **Example**: `ProductModel` dengan properties dan methods terpisah
-
-**B. Logika Bisnis (Business Logic Layer)**
-
-- **Purpose**: Mengelola state dan business rules
-- **Benefits**:
-  - Business logic terpisah dari UI
-  - Mudah di-test secara unit testing
-  - Dapat digunakan ulang di berbagai UI
-- **Example**: `CartCubit` mengelola cart operations
-
-**C. UI Layer (Presentation Layer)**
-
-- **Purpose**: Menampilkan data dan handle user interactions
-- **Benefits**:
-  - UI changes tidak affect business logic
-  - Multiple UI dapat menggunakan logic yang sama
-  - Easier maintenance dan debugging
-- **Example**: `ProductCard`, `CartHomePage` hanya handle presentation
+*Pemisahan ini membuat kode lebih rapi, mudah diuji, dan mudah dikembangkan. Perubahan tampilan tidak mengganggu logika bisnis, dan 
+logika tetap konsisten walau UI berubah. Struktur proyek menjadi lebih terukur dan terjaga kualitasnya.*
 
 #### **Keuntungan Arsitektur Terpisah:**
 
