@@ -2,6 +2,11 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+**UTS Mobile Programming 2**  
+**TIF RP-23 CNS A**  
+**Nama:** Bayu Aji Prayoga  
+**NIM:** 23552011194
+**Jawaban Soal Teori ada di bawah**
 
 ## 📋 Deskripsi Proyek
 
@@ -256,52 +261,6 @@ String _formatPrice(int price) {
 - [ ] Multiple items dengan quantities berbeda
 - [ ] Cart after removing items
 - [ ] Cart after clearing all items
-
-## 🎓 Academic Context (UAS Mobile 2)
-
-### Requirements Compliance (80 Points)
-
-#### ✅ Model Class (20 Points)
-
-- **ProductModel** di folder `models/`
-- Properties: `id` (String), `name` (String), `price` (int), `image` (String)
-- Methods: `toMap()` dan `fromMap()` untuk serialization
-
-#### ✅ CartCubit Implementation (20 Points)
-
-- **State Management** menggunakan ChangeNotifier
-- **Methods Required**:
-  - `addToCart()` - ✅ Implemented
-  - `removeFromCart()` - ✅ Implemented
-  - `updateQuantity()` - ✅ Implemented
-  - `getTotalItems()` - ✅ Implemented
-  - `getTotalPrice()` - ✅ Implemented
-  - `clearCart()` - ✅ Implemented
-
-#### ✅ ProductCard Widget (20 Points)
-
-- **Reusable Widget** di folder `widgets/`
-- **Displays**: Image, name, price, add button
-- **Integration**: Connected dengan CartCubit
-- **Modern Design**: Card layout dengan styling
-
-#### ✅ CartSummaryPage (20 Points)
-
-- **Complete Implementation** dengan quantity controls
-- **Features**: List items, adjust quantities, remove items
-- **Real-time Updates**: Connected ke CartCubit state
-- **Bonus**: Enhanced UI dengan proper formatting
-
-### Bonus Features Implemented
-
-- **Enhanced UI/UX**: Modern e-commerce design
-- **Real Images**: Unsplash integration
-- **Branding**: Complete store branding implementation
-- **Navigation**: Multi-page navigation flow
-- **Error Handling**: Image loading fallbacks
-- **Responsive Design**: Works on various screen sizes
-
----
 
 ## 📚 Teori dan Jawaban Soal (30 Poin)
 
