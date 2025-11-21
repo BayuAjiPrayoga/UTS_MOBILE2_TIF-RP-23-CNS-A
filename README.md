@@ -241,26 +241,6 @@ String _formatPrice(int price) {
 // Output: 18999000 → "18.999.000"
 ```
 
-## 🧪 Testing
-
-### Manual Testing Checklist
-
-- [ ] Homepage loading dan navigation
-- [ ] Grid page menampilkan semua produk
-- [ ] Add to cart functionality
-- [ ] Cart counter updates real-time
-- [ ] Quantity adjustment di cart summary
-- [ ] Remove items dari cart
-- [ ] Total price calculation accuracy
-- [ ] Responsive design pada berbagai screen size
-
-### State Testing
-
-- [ ] Empty cart state
-- [ ] Single item in cart
-- [ ] Multiple items dengan quantities berbeda
-- [ ] Cart after removing items
-- [ ] Cart after clearing all items
 
 ## 📚 Teori dan Jawaban Soal (30 Poin)
 
